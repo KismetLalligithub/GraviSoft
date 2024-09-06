@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #333;
+  background-image: linear-gradient(to right, rgb(17, 24, 39), rgb(75, 85, 99));
   padding: 1rem;
 }
 
@@ -20,4 +20,8 @@
 
 .nav-item:hover {
   background-color: #555;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(17, 24, 39), rgb(75, 85, 99));
 }
