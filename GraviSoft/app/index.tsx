@@ -1,23 +1,14 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ImageBackground } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
+import './home.css';
 
 const Home: React.FC = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Home</Text>
-    </View>
+    <div className='home'>
+      Home page
+    </div>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  title: {
-    fontSize: 24,
-  },
-});
 
 export default Home;
