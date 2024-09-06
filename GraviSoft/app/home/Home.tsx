@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Nav";
+import Navbar from "";
 import { Title } from "./styles";
 
 function App() {
