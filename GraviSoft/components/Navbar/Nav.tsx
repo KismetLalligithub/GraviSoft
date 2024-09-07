@@ -6,34 +6,36 @@ const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
     <nav className="navbar">
-      <div className="navbar-right">
-        <div className="sidebar-icon">
-          <SidebarMenuIcon
-            sidebarOpen={sidebarOpen}
-            setSidebarOpen={setSidebarOpen}
-          />
+      <div className="navbar-inner">
+        <div className="navbar-right">
+          <div className="sidebar-icon">
+            <SidebarMenuIcon
+              sidebarOpen={sidebarOpen}
+              setSidebarOpen={setSidebarOpen}
+            />
+          </div>
+          <div className="navbar-brand">
+            <h3>GraviSoftAI</h3>
+          </div>
         </div>
-        <div className="navbar-brand">
-          <h3>GraviSoftAI</h3>
-        </div>
+        <ul className="nav-links">
+          <li>
+            <a href="\" className="nav-item">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="link here" className="nav-item">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="link here" className="nav-item">
+              Contact Us
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul className="nav-links">
-        <li>
-          <a href="\" className="nav-item">
-            Home
-          </a>
-        </li>
-        <li>
-          <a href="link here" className="nav-item">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="link here" className="nav-item">
-            Contact Us
-          </a>
-        </li>
-      </ul>
     </nav>
   );
 };
