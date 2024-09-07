@@ -15,7 +15,7 @@ const Navbar = () => {
             />
           </div>
           <div className="navbar-brand">
-            <h3>GraviSoftAI</h3>
+            <h3>GraviSoft<span>AI</span></h3>
           </div>
         </div>
         <ul className="nav-links">
