@@ -1,6 +1,29 @@
 .navbar {
+<<<<<<< HEAD
   background-image: linear-gradient(to right, rgb(17, 24, 39), rgb(75, 85, 99));
   padding: 1rem;
+=======
+  background-color: rgba(51, 51, 51, 0);
+  padding: 1.5rem;
+  box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.36);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0);
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 20px;
+  font-size: 18px;
+  line-height: 0;
+>>>>>>> ebeeef02b6bf578c61fdac133366b8f7776822c2
 }
 
 .nav-links {
@@ -9,6 +32,10 @@
   justify-content: space-around;
   margin: 0;
   padding: 0;
+  font-style: normal;
+  font-family:Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0);
 }
 
 .nav-item {
