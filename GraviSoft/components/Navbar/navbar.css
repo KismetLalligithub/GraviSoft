@@ -1,12 +1,22 @@
 .navbar {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 1rem 0rem 1rem 0rem;
+  background-color: rgba(0, 0, 0, 0.845);
+  padding: 0.2rem 0rem 0.1rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid rgba(85, 85, 85, 0.367);
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: white;
 }
 
 .navbar-brand h3 {
@@ -84,33 +94,50 @@
 
 
 .nav-links-right .nav-item {
-  border: 1px solid rgba(128, 128, 128, 0.3);
+  border: 1px solid rgba(128, 128, 128, 0.258);
 }
 
 .nav-item {
   text-decoration: none;
   color: rgb(197, 197, 197);
   background-color: rgb(4, 4, 4);
-  padding: 8px;
+  padding: 9px 12px 9px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(92, 92, 92, 0);
+  transition: 0.2s ease;
+  /* background-image: linear-gradient(to right, rgba(63, 0, 102, 0.536), rgb(0, 0, 0)); */
+}
+.nav-item:hover {
+  background-color: rgba(123, 123, 123, 0.513);
+  border: 1px solid rgba(128, 128, 128, 0.116);
+}
+
+.nav-item-left {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+  background-color: rgb(4, 4, 4);
+  padding: 9px 12px 9px 12px;
   border-radius: 6px;
   border: 1px solid rgba(92, 92, 92, 0);
   transition: 0.2s ease;
 }
-.nav-item:hover {
-  background-color: rgba(54, 53, 53, 0.817);
+.nav-item-left:hover {
+  background-color: rgba(36, 36, 36, 0.607);
   border: 1px solid rgba(128, 128, 128, 0.116);
 }
 
 .nav-item.contact {
-  background-color: rgba(248, 244, 244, 0.335);
+  background-color: rgba(55, 55, 55, 0.482);
   color: rgb(226, 226, 226);
+  border: 1px solid rgba(128, 128, 128, 0.159);
   font-size: 15px;
+  /* background-image: linear-gradient(to right, rgba(56, 0, 90, 0.437), rgb(0, 0, 0)); */
 }
 
 .nav-item.contact:hover {
-  background-color: rgba(174, 174, 174, 0);
   color: rgb(211, 211, 211);
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0);
+  background-color: rgba(86, 86, 86, 0.643);
 }
 
 .nav-item-register {

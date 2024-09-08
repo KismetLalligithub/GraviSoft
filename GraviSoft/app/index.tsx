@@ -32,7 +32,7 @@ const Home: React.FC = () => {
           opacity: overlayOpacity,
           height: overlayHeight + "vh",
           transition: isScrollingDown
-            ? "opacity 0.3s ease, height 0.4s ease"
+            ? "opacity 0.4s ease, height 0.4s ease"
             : "opacity 0.2s ease, height 0s ease",
         }}
       >
