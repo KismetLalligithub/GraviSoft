@@ -55,12 +55,12 @@ const Home: React.FC = () => {
 
       {/* Section 3: Projects */}
       <div className="home-section section3">
-        Home 3: Projects
+        Home 3
       </div>
 
       {/* Section 4: Contact */}
       <div className="home-section section4">
-        Home 4: Contact Us
+        Home 4
       </div>
     </div>
   );

@@ -1,8 +1,6 @@
 .navbar {
-  /* background-image: linear-gradient(to right, rgb(17, 24, 39), rgb(75, 85, 99)); */
-  background-color: rgba(17, 17, 17, 0);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 1rem 0rem 1rem 0rem;
-  /* box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.36); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,11 +14,12 @@
 }
 .navbar-brand h3 span {
   color: rgb(148, 0, 207);
-  box-shadow: 0px 3px 5px 1px purple;
+  box-shadow: 0px 2px 5px 1px purple;
   font-size: 26px;
   margin-left: 5px;
   border-radius: 5px;
   padding: 1px 4px 2px 4px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-inner {
@@ -31,29 +30,31 @@
   width: 96%;
 }
 
-.navbar-right {
+.navbar-left {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 0, 0, 0);
   font-style: normal;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   gap: 20px;
   font-size: 18px;
   line-height: 0;
 }
 
-.nav-links {
+.nav-links-left {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   margin: 0;
   padding: 0;
   font-style: normal;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 100%;
   background-color: rgba(255, 0, 0, 0);
+  font-size: 16px;
+  color: rgba(85, 85, 85, 0.824) !important;
 }
 
 .nav-item {
@@ -67,3 +68,109 @@
   background-color: #555;
 }
 
+
+.nav-links-right {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0);
+  gap: 10px;
+}
+
+
+.nav-links-right .nav-item {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.nav-item {
+  text-decoration: none;
+  color: rgb(197, 197, 197);
+  background-color: rgb(4, 4, 4);
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(92, 92, 92, 0);
+  transition: 0.2s ease;
+}
+.nav-item:hover {
+  background-color: rgba(54, 53, 53, 0.817);
+  border: 1px solid rgba(128, 128, 128, 0.116);
+}
+
+.nav-item.contact {
+  background-color: rgba(248, 244, 244, 0.335);
+  color: rgb(226, 226, 226);
+  font-size: 15px;
+}
+
+.nav-item.contact:hover {
+  background-color: rgba(174, 174, 174, 0);
+  color: rgb(211, 211, 211);
+  border: 1px solid gray;
+}
+
+.nav-item-register {
+  text-decoration: none;
+  color: rgb(69, 69, 69);
+  background-color: white;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(128, 128, 128, 0);
+  transition: 0.2s ease;
+}
+
+.nav-item-register:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(31, 31, 31, 0);
+  border: 1px solid white;
+}
+
+
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 6px;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  font-size: 10px;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: rgba(85, 85, 85, 0.499);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.chevron {
+  margin-left: 0.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 13px;
+}
+
+.chevron.rotate {
+  transform: rotate(180deg);
+}
