@@ -36,18 +36,32 @@ const Home: React.FC = () => {
             : "opacity 0.2s ease, height 0s ease",
         }}
       >
-        <h1 className="overlay-text">Redefining Game Dev</h1>
+        <span>AI</span>
+        <h1 className="overlay-text">Transforming Game Design</h1>
         <p className="overlay-subtext">Explore our mission and vision</p>
       </div>
 
       {/* Section 2: Company Info */}
-      <div className="home-section section2">Home 2: Company Info</div>
+      <div className="home-section section2">
+        <div className="section2-inner">
+          <div className="section2-left">
+
+          </div>
+          <div className="section2-right">
+
+          </div>
+        </div>
+       </div>
 
       {/* Section 3: Projects */}
-      <div className="home-section section3">Home 3: Projects</div>
+      <div className="home-section section3">
+        Home 3: Projects
+      </div>
 
       {/* Section 4: Contact */}
-      <div className="home-section section4">Home 4: Contact Us</div>
+      <div className="home-section section4">
+        Home 4: Contact Us
+      </div>
     </div>
   );
 };

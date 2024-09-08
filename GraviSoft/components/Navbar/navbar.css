@@ -1,8 +1,8 @@
 .navbar {
   /* background-image: linear-gradient(to right, rgb(17, 24, 39), rgb(75, 85, 99)); */
-  background-color: rgba(17, 17, 17, 0.717);
+  background-color: rgba(17, 17, 17, 0);
   padding: 1rem 0rem 1rem 0rem;
-  box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.36);
+  /* box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.36); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,10 +17,10 @@
 .navbar-brand h3 span {
   color: rgb(148, 0, 207);
   box-shadow: 0px 3px 5px 1px purple;
-  font-size: 27px;
+  font-size: 26px;
   margin-left: 5px;
   border-radius: 5px;
-  padding: 3px;
+  padding: 1px 4px 2px 4px;
 }
 
 .navbar-inner {
